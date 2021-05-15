@@ -6,6 +6,7 @@ import {
 } from 'react-native'
 
 import { Header } from '../components/Header'
+import { EnviromentButton } from '../components/EnviromentButton'
 
 import colors from '../styles/colors'
 import fonts from '../styles/fonts'
@@ -20,9 +21,12 @@ export function PlantSelect() {
           Em qual ambiente
         </Text>
         <Text style={styles.subtitle}>
-            voçê quer colocar sua planta? Planta
+            você quer colocar sua planta? Planta
         </Text>
       </View>
+
+      <EnviromentButton title={'Sala'} active />
+
     </View>
   )
 }
