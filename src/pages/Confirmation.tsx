@@ -25,7 +25,7 @@ export function Confirmation() {
         </Text>
       
       <View style = {styles.footer}>
-        <Button />
+        <Button title={'Começar'}/>
       </View>
 
       </View>
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   },
   footer: {
     width: '100%',
-    paddingHorizontal: 75,
+    paddingHorizontal: 50,
     marginTop: 20,
   }
 
